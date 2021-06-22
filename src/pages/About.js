@@ -3,7 +3,7 @@ import Meta from '../components/Meta'
 
 const About = () => {
   // page content
-  const pageTitle = 'About'
+  const pageTitle = 'My Surveys'
   const pageDescription = 'welcome to react bootstrap template'
 
   return (

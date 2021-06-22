@@ -2,14 +2,16 @@
 import { BrowserRouter as Router} from 'react-router-dom'
 
 // components
-import Menu from '../components/Menu'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const Layout = ({ children }) => {
   return (
     <Router>
-      <Menu />
-      <main>{children}</main>
+      <Navbar />
+      <main aria-label="culureamp page content">
+        {children}
+      </main>
       <Footer />
     </Router>
   )

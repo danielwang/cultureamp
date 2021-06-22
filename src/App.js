@@ -12,13 +12,11 @@ import NotFound from './pages/NotFound'
 const App = () => {
   return (
     <Layout>
-      <Container>
-        <Switch>
-          <Route path='/' component={Home} exact />
-          <Route path='/about' component={About} />
-          <Route component={NotFound} />
-        </Switch>
-      </Container>
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/about' component={About} />
+        <Route component={NotFound} />
+      </Switch>
     </Layout>
   )
 }
