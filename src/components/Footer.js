@@ -2,8 +2,8 @@ const Footer = () => {
   const year = new Date().getFullYear()
   return (
     <>
-      <footer className='text-center text-capitalize'>
-        copyright react bootstrap starter &copy; {year}
+      <footer className='text-end'>
+        <a target="_blank" href="https://danielwang.github.io/bio/">Daniel Wang</a> {year}
       </footer>
     </>
   )

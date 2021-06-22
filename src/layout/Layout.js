@@ -8,11 +8,13 @@ import Footer from '../components/Footer'
 const Layout = ({ children }) => {
   return (
     <Router>
-      <Navbar />
-      <main aria-label="culureamp page content">
-        {children}
-      </main>
-      <Footer />
+      <div className="d-flex flex-column">
+        <Navbar />
+        <main className="flex-fill" aria-label="culureamp page content">
+          {children}
+        </main>
+        <Footer />
+      </div>
     </Router>
   )
 }
