@@ -11,7 +11,7 @@ const Home = () => {
       <Meta title={pageTitle}/>
       <Header head={pageTitle} description={pageDescription} />
       <div className="container" role="region">
-        <div class="row">
+        <div class="row gy-4">
           <div class="col-md-6 col-lg-4 col-xxl-3">
             <div class="card position-relative">
               <div className="mb-3">

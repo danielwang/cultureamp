@@ -2,8 +2,8 @@ const Footer = () => {
   const year = new Date().getFullYear()
   return (
     <>
-      <footer className='text-end'>
-        <a target="_blank" href="https://danielwang.github.io/bio/">Daniel Wang</a> {year}
+      <footer className='text-center p-3'>
+        Crafted and coded by <a target="_blank" href="https://danielwang.github.io/bio/">Daniel Wang</a>
       </footer>
     </>
   )

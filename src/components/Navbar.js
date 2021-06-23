@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 const Menu = () => {
   return (
 
-    <nav className='navbar' role="navigation" aria-label="CultureAmp global topbar">
+    <nav className='navbar navbar-dark' role="navigation" aria-label="CultureAmp global topbar">
       <Container>
       <LinkContainer to='/'>
         <Nav.Link className='ms-n3'>
@@ -16,11 +16,20 @@ const Menu = () => {
         </Nav.Link>
       </LinkContainer>
 
-        <ul className='nav col-12 col-md-auto mb-2 justify-content-center mb-md-0'>
-          <li>
+        <ul className='navbar-nav flex-row flex-wrap ms-md-auto'>
+          {/* <li>
             <LinkContainer to='/about'>
               <Nav.Link className='nav-link px-2 link-secondary'>About</Nav.Link>
             </LinkContainer>
+          </li> */}
+          <li className="nav-item mb-0">
+            <a className="nav-link" target="blank" href="https://www.figma.com/file/66dmIPykFMzxAOpJxtw9zm/Design-Process?node-id=0%3A1">Design Process</a>
+          </li>
+          <li className="nav-item mx-4 mb-0">
+            <a className="nav-link" target="blank" href="https://www.figma.com/file/xK3FBWEkRmFfYZtshZugTi/CultureAmp-Design-Challenge---Daniel-Wang?node-id=15%3A0">Figma mockups</a>
+          </li>
+          <li className="nav-item mb-0">
+            <a className="nav-link" target="blank" href="https://github.com/danielwang/cultureamp">Github repo</a>
           </li>
         </ul>
       </Container>
