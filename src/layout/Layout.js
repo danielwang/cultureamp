@@ -10,9 +10,9 @@ const Layout = ({ children }) => {
     <Router>
       <div className="vh-100 d-flex flex-column">
         <Navbar />
-        <main className="flex-fill" aria-label="culureamp page content">
+        <div className="flex-fill">
           {children}
-        </main>
+        </div>
         <Footer />
       </div>
     </Router>
