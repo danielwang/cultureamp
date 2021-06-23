@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Meta title={pageTitle}/>
       <Header head={pageTitle} description={pageDescription} />
-      <main aria-label="Cultureamp page content">
+      <main aria-label="Cultureamp survey landing page">
         <Container>
           <Row className="gy-4">
             <Col md={6} lg={4} className="col-xxl-3">
