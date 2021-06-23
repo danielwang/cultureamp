@@ -15,7 +15,7 @@ const Home = () => {
           <div class="col-md-6 col-lg-4 col-xxl-3">
             <div class="card position-relative">
               <div className="mb-3">
-                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-hidden="true" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00681 11.6584L0.888885 13.867C0.888885 13.867 3.44785 24.3258 7.54219 24.6506C11.6365 24.9754 12.7241 13.4123 12.7241 13.4123L6.00681 11.6584Z" fill="#69BDFF"/>
                     <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M5.74077 11.7623L3.76855 12.6275C4.08686 13.9769 5.01265 15.8367 6.54591 18.2067C8.8458 21.7619 8.65348 23.2882 8.40684 24.1831C8.16019 25.078 11.0223 22.7541 11.0223 21.2726C11.0223 19.7911 8.49369 15.939 8.40684 15.5641C8.34894 15.3141 7.46025 14.0468 5.74077 11.7623Z" fill="black"/>
@@ -28,17 +28,16 @@ const Home = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
                 <h2 className="d-inline-block ms-2 mb-0 align-middle"><a href="/about" className="stretched-link link-alt">Simple Survey</a></h2>
               </div>
               <div className="row">
                 <div className="col">
-                    <span className="d-block text-24 fw-light mb-n2">83%</span>
-                    <span className="text-muted">Response rate</span>
+                    <span aria-labelledby="c1-rr" className="d-block text-24 fw-light mb-n2">83%</span>
+                    <span id="c1-rr" aria-hidden="true" className="text-muted">Response rate</span>
                 </div>
                 <div className="col">
-                  <span className="d-block text-24 fw-light mb-n2">5/6</span>
-                  <span className="text-muted">Participants</span>
+                  <span aria-labelledby="c1-p" className="d-block text-24 fw-light mb-n2"><span aria-hidden="true">5/6</span><span className="visually-hidden">5 out of 6</span></span>
+                  <span id="c1-p" aria-hidden="true" className="text-muted">Participants</span>
               </div>
               </div>
             </div>
@@ -46,7 +45,7 @@ const Home = () => {
           <div class="col-md-6 col-lg-4 col-xxl-3">
             <div class="card position-relative">
               <div className="mb-3">
-                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-hidden="true" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00681 11.6584L0.888885 13.867C0.888885 13.867 3.44785 24.3258 7.54219 24.6506C11.6365 24.9754 12.7241 13.4123 12.7241 13.4123L6.00681 11.6584Z" fill="#69BDFF"/>
                     <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M5.74077 11.7623L3.76855 12.6275C4.08686 13.9769 5.01265 15.8367 6.54591 18.2067C8.8458 21.7619 8.65348 23.2882 8.40684 24.1831C8.16019 25.078 11.0223 22.7541 11.0223 21.2726C11.0223 19.7911 8.49369 15.939 8.40684 15.5641C8.34894 15.3141 7.46025 14.0468 5.74077 11.7623Z" fill="black"/>
@@ -64,12 +63,12 @@ const Home = () => {
               </div>
               <div className="row">
                 <div className="col">
-                    <span className="d-block text-24 fw-light text-success mb-n2">100%</span>
-                    <span className="text-muted">Response rate</span>
+                    <span aria-labelledby="c2-rr" className="d-block text-24 fw-light text-success mb-n2">100%</span>
+                    <span id="c2-rr" aria-hidden="true" className="text-muted">Response rate</span>
                 </div>
                 <div className="col">
-                  <span className="d-block text-24 fw-light mb-n2">271/271</span>
-                  <span className="text-muted">Participants</span>
+                  <span aria-labelledby="c2-p" className="d-block text-24 fw-light mb-n2"><span aria-hidden="true">271/271</span><span className="visually-hidden">271 out of 271</span></span>
+                  <span id="c2-p" aria-hidden="true" className="text-muted">Participants</span>
               </div>
               </div>
             </div>
