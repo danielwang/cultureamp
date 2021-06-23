@@ -4,7 +4,7 @@ import Meta from '../components/Meta'
 const Home = () => {
   // page content
   const pageTitle = 'My Surveys'
-  const pageDescription = 'welcome to react bootstrap template'
+  const pageDescription = 'Surveys landing page'
 
   return (
     <div>
@@ -28,7 +28,7 @@ const Home = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <h2 className="d-inline-block ms-2 mb-0 align-middle"><a href="/about" className="stretched-link link-alt">Simple Survey</a></h2>
+                <h2 className="d-inline-block ms-2 mb-0 align-middle"><a href="/survey" className="stretched-link link-alt">Simple Survey</a></h2>
               </div>
               <div className="row">
                 <div className="col">
@@ -59,7 +59,7 @@ const Home = () => {
                   </defs>
                 </svg>
 
-                <h2 className="d-inline-block ms-2 mb-0 align-middle"><a href="/about" className="stretched-link link-alt">Acme Engagement Survey</a></h2>
+                <h2 className="d-inline-block ms-2 mb-0 align-middle"><a href="/survey" className="stretched-link link-alt">Acme Engagement Survey</a></h2>
               </div>
               <div className="row">
                 <div className="col">

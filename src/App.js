@@ -6,7 +6,7 @@ import Layout from './layout/Layout'
 
 // pages
 import Home from './pages/Home'
-import About from './pages/About'
+import Survey from './pages/Survey'
 import NotFound from './pages/NotFound'
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
     <Layout>
       <Switch>
         <Route path='/' component={Home} exact />
-        <Route path='/about' component={About} />
+        <Route path='/survey' component={Survey} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

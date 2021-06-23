@@ -1,10 +1,10 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
-const About = () => {
+const Survey = () => {
   // page content
-  const pageTitle = 'My Surveys'
-  const pageDescription = 'welcome to react bootstrap template'
+  const pageTitle = 'Acme Engagement Survey'
+  const pageDescription = 'Survey detail page'
 
   return (
     <div>
@@ -14,4 +14,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Survey

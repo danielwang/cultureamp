@@ -74,6 +74,25 @@ body{
 }
 nav{
     background-color: $ca-brand;
+    position: relative;
+    .wave{
+        position: absolute;
+        bottom: -2rem;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    
+        svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 2rem;
+        }
+        .shape-fill {
+            fill: $ca-brand;
+        }    
+    }
 }
 
 footer{
