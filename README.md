@@ -1,17 +1,19 @@
-# React Bootstrap Starter
+# CultureAmp design challenge
 
-![logo](./screenshots/react-bootstrap-starter.png)
-
-[Documentation](https://chrisdev.hashnode.dev/react-and-bootstrap-starter-template) | [Live Demo](https://react-bootstrap-temp.netlify.app/)
-
-React Bootstrap Starter is a starter template for react and bootstrap created by [Chris Achinga](http://chrisdev.netlify.app). This theme uses Create React App, react-bootstrap and gh-pages.
+![ally wave](./screenshots/a11y-wave.png)
 
 
-## Download and Installation
+## About me
+[Daniel Wang](http://danielwang.github.io/bio)
 
-To begin using this template, choose one of the following options to get started:
+## Design Process
 
-Fork and clone the repository.
+[Design Process on FigJam file](https://www.figma.com/file/66dmIPykFMzxAOpJxtw9zm/Design-Process?node-id=0%3A1)
+
+[Hi fidality mockups on Figma file](https://www.figma.com/file/xK3FBWEkRmFfYZtshZugTi/CultureAmp-Design-Challenge-Daniel-Wang?node-id=15%3A1014)
+
+
+## Download and Installation app
 
 Install the dependencies:
 
@@ -19,15 +21,18 @@ Install the dependencies:
 npm install
 ```
 
-## Usage
-
-Start editing and customizing according to your needs.
+## View the app
 
 Run locally:
 
 ```powershell-interactive
 npm start
 ```
+It will automatically fire up brower tab http://localhost:3000/ 
+
+## Framework and Template
+- [react-bootstrap-starter](https://github.com/ChrisAchinga/react-bootstrap-starter)
+- [Bootstap 5 sass](https://getbootstrap.com/)
 
 ## Dependencies:
 
@@ -35,26 +40,3 @@ npm start
 - [Create React App](https://create-react-app.dev/)
 - [react-bootstrap](https://react-bootstrap.github.io/)
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? Open a new issue here on GitHub.
-
-## Copyright and License
-
-Copyright 2021 Chris Achinga. Code released under the [MIT license](LICENSE).
-
-## Status
-
-<div align='center'>
-
-[![GitHub forks](https://img.shields.io/github/forks/ChrisAchinga/react-bootstrap-starter)](https://github.com/ChrisAchinga/react-bootstrap-starter/network)
-
-[![GitHub stars](https://img.shields.io/github/stars/ChrisAchinga/react-bootstrap-starter)](https://github.com/ChrisAchinga/react-bootstrap-starter/stargazers)
-
-[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/status.svg)](https://depfu.com)
-
-[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/overview.svg)](https://depfu.com/github/ChrisAchinga/react-bootstrap-starter?project_id=18009)
-
-[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/count.svg)](https://depfu.com/github/ChrisAchinga/react-bootstrap-starter?project_id=18009)
-
-</div>
