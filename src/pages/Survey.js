@@ -1,26 +1,52 @@
-import Header from '../components/Header'
 import Meta from '../components/Meta'
 import { Container,Row, Col, Card} from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const Survey = () => {
   // page content
   const pageTitle = 'Acme Engagement Survey'
-  const pageDescription = 'Survey detail page'
   let themes=['Engagement','My Manager','Top Drivers','Action','Survey'];
   return (
     <>
       <Meta title={pageTitle}/>
-      <Header head={pageTitle} description={pageDescription} />
+      <header class="py-4 mt-3" role="banner" aria-label="CultureAmp page header">
+        <Container>
+          <div className="d-flex flex-column flex-md-row">
+            <div className="d-flex align-items-center">
+            <LinkContainer to='/'>
+              <a href="#" aria-label="Back to survey landing page">
+                <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.8532 20.7461L11.1847 20.4147C11.4043 20.1951 11.4043 19.8389 11.1847 19.6192L2.81777 11.2523H20.4375C20.7481 11.2523 21 11.0005 21 10.6898V10.2211C21 9.91043 20.7481 9.65857 20.4375 9.65857H2.81777L11.1847 1.29166C11.4043 1.07201 11.4043 0.715852 11.1847 0.496148L10.8532 0.164742C10.6336 -0.0549141 10.2774 -0.0549141 10.0578 0.164742L0.164742 10.0577C-0.0549141 10.2774 -0.0549141 10.6335 0.164742 10.8532L10.0578 20.7462C10.2774 20.9659 10.6336 20.9659 10.8532 20.7461Z" fill="black"/>
+                </svg>
+              </a>
+            </LinkContainer>
+              <h1 class="ms-3 mb-0">{pageTitle}</h1>
+            </div>
+            <div className="mt-4 mt-md-0 ms-md-auto d-flex justify-content-around">
+              <div className="text-center text-md-end me-md-3">
+                <span aria-labelledby="c2-rr" className="d-block text-24 fw-light text-success mb-n2">100%</span>
+                <span id="c2-rr" aria-hidden="true" className="text-secondary">Response rate</span>
+              </div>
+              <div className="text-center text-md-end"> 
+                <span aria-labelledby="c2-p" className="d-block text-24 fw-light mb-n2"><span aria-hidden="true">271</span><span className="visually-hidden">271 out of 271</span></span>
+                <span id="c2-p" aria-hidden="true" className="text-secondary">Participants</span>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </header>
       <main aria-label="Survey Details">
         <Container>
         <Row className="justify-content-xxl-center">
           <Col md={4} lg={3}>
-            <div className="h5 text-12 text-secondary text-uppercase mt-4 mb-2">themes</div>
-            <ul className="list-unstyled" aria-label="Table of content">
-              {themes.map((theme,index)=>{
-                  return <li key={index}>{theme}</li>
-              })}
-            </ul>
+            <div className="d-none d-md-block">
+              <div className="h5 text-12 text-secondary text-uppercase mt-4 mb-2">themes</div>
+              <ul className="list-unstyled" aria-label="Table of content">
+                {themes.map((theme,index)=>{
+                    return <li key={index}>{theme}</li>
+                })}
+              </ul>
+            </div>
           </Col>
           <Col md={8} lg={9}>
             <Card className="mb-5">
