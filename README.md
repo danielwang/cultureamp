@@ -4,7 +4,7 @@ I'am [Daniel Wang](http://danielwang.github.io/bio), my personal ambitions is to
 # CultureAmp design challenge
 ![ally wave](./screenshots/responsive.gif)
 
-I am a time-poor person, who spent 2-3 hours each night from Mon to Thurdays. So I quickly wire things up by leveraging some framework and starter kits I am familiar with. If time allows, I would like to explore and use Kaizen DS.
+I am a time-poor person, who spent 2-3 hours each night from Mon to Thurdays. So I quickly wire things up by leveraging some framework and starter kits I am familiar with. It took me approximately 10 hours to get this far, like my normal work, 3/10 on designing, 5/10 on develeping, 2/10 on documenting. If time allows, I would like to explore and use Kaizen DS. 
 
 I had a light touch on below areas, plesae let me know if you would like to expore more on any particular topics or skills missing from this list. I am more than happy to demostrate, e.g. CSS Module.
 
@@ -26,8 +26,8 @@ I had a light touch on below areas, plesae let me know if you would like to expo
     - React SPA
     - Web A11y, WCAG, WAI-ARIA tag, Assistive technology 
 
-## Design Process
-[Design Process on FigJam file](https://www.figma.com/file/66dmIPykFMzxAOpJxtw9zm/Design-Process?node-id=0%3A1)
+## Design and Development
+[Design Process and Tech highlights on FigJam file](https://www.figma.com/file/66dmIPykFMzxAOpJxtw9zm/Design-Process?node-id=0%3A1)
 [Hi fidality mockups on Figma file](https://www.figma.com/file/xK3FBWEkRmFfYZtshZugTi/CultureAmp-Design-Challenge-Daniel-Wang?node-id=15%3A1014)
 
 ## Installation
@@ -57,5 +57,7 @@ It will automatically fire up in a brower tab http://localhost:3000/
 - [Create React App](https://create-react-app.dev/)
 - [react-bootstrap](https://react-bootstrap.github.io/)
 
+## Project structure
+![app src](./screenshots/src.png)
 ## Materials
 `https://github.com/danielwang/cultureamp/tree/main/screenshots` 
