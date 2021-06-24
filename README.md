@@ -29,7 +29,7 @@ I had a light touch on below areas, plesae let me know if you would like to expo
 ## Design and Development
 [Design Process and Tech highlights on FigJam file](https://www.figma.com/file/66dmIPykFMzxAOpJxtw9zm/Design-Process?node-id=0%3A1)
 
-[Hi fidality mockups on Figma file](https://www.figma.com/file/xK3FBWEkRmFfYZtshZugTi/CultureAmp-Design-Challenge-Daniel-Wang?node-id=15%3A1014)
+[Hi fidelity mockups on Figma file](https://www.figma.com/file/xK3FBWEkRmFfYZtshZugTi/CultureAmp-Design-Challenge-Daniel-Wang?node-id=15%3A1014)
 
 ## Installation
 
@@ -59,6 +59,18 @@ It will automatically fire up in a brower tab http://localhost:3000/
 - [react-bootstrap](https://react-bootstrap.github.io/)
 
 ## Project structure
-![app src](./screenshots/src.png|width=300)
+
+```bash
+├── ...
+├── pages                    
+│   ├── Home.js              # Surveys landing page         
+│   ├── Survey.js            # Survey details page           
+│   └── ...  
+├── sass                    
+│   ├── main.scss            # Styles                 
+│   └── ...                 
+└── ...
+```
+
 ## Materials
 `https://github.com/danielwang/cultureamp/tree/main/screenshots` 
