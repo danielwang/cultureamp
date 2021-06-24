@@ -35,11 +35,11 @@ const Home = () => {
                 <Row>
                   <Col>
                       <span aria-labelledby="c1-rr" className="d-block text-24 fw-light mb-n2">83%</span>
-                      <span id="c1-rr" aria-hidden="true" className="text-muted">Response rate</span>
+                      <span id="c1-rr" aria-hidden="true" className="text-secondary">Response rate</span>
                   </Col>
                   <Col>
                     <span aria-labelledby="c1-p" className="d-block text-24 fw-light mb-n2"><span aria-hidden="true">5/6</span><span className="visually-hidden">5 out of 6</span></span>
-                    <span id="c1-p" aria-hidden="true" className="text-muted">Participants</span>
+                    <span id="c1-p" aria-hidden="true" className="text-secondary">Participants</span>
                   </Col>
                 </Row>
               </Card>
@@ -65,11 +65,11 @@ const Home = () => {
                 <Row>
                   <Col>
                       <span aria-labelledby="c2-rr" className="d-block text-24 fw-light text-success mb-n2">100%</span>
-                      <span id="c2-rr" aria-hidden="true" className="text-muted">Response rate</span>
+                      <span id="c2-rr" aria-hidden="true" className="text-secondary">Response rate</span>
                   </Col>
                   <Col>
                       <span aria-labelledby="c2-p" className="d-block text-24 fw-light mb-n2"><span aria-hidden="true">271/271</span><span className="visually-hidden">271 out of 271</span></span>
-                      <span id="c2-p" aria-hidden="true" className="text-muted">Participants</span>
+                      <span id="c2-p" aria-hidden="true" className="text-secondary">Participants</span>
                   </Col>
                 </Row>
               </Card>
