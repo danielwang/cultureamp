@@ -53,7 +53,7 @@
 // @import "../../node_modules/bootstrap/scss/print";
 
 //
-// CAD styles
+// Local styles
 //
 
 @import "type";
@@ -97,5 +97,6 @@ nav{
 }
 
 footer{
-    background-color: $white;    ;
+    background-color: #524e56;
+    color: white;
 }

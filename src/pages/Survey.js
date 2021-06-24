@@ -9,7 +9,7 @@ const Survey = () => {
   return (
     <>
       <Meta title={pageTitle}/>
-      <header class="py-4 mt-3" role="banner" aria-label="CultureAmp page header">
+      <header className="py-4 mt-3" role="banner" aria-label="CultureAmp page header">
         <Container>
           <div className="d-flex flex-column flex-md-row">
             <div className="d-flex align-items-center">
@@ -20,7 +20,7 @@ const Survey = () => {
                 </svg>
               </a>
             </LinkContainer>
-              <h1 class="ms-3 mb-0">{pageTitle}</h1>
+              <h1 className="ms-3 mb-0">{pageTitle}</h1>
             </div>
             <div className="mt-4 mt-md-0 ms-md-auto d-flex justify-content-around">
               <div className="text-center text-md-end me-md-3">
